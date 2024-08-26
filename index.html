@@ -1,0 +1,81 @@
+<!-- Document type declaration -->
+<!DOCTYPE html>
+
+<!-- HTML document -->
+<html lang="es">
+  <!-- Head section -->
+  <head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title -->
+    <title>Zelda Characters Catalog</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <!-- Body section -->
+  <body>
+    <!-- Header section -->
+    <header>
+      <!-- Main title -->
+      <h1>Zelda Breath of the Wild Characters</h1>
+    </header>
+
+    <!-- Filters section -->
+    <section id="filters">
+      <!-- Filters for character data -->
+      <select id="filter-type" class="filter">
+        <!-- Options for filtering by type -->
+        <option value="">Filter by Type</option>
+        <option value="Hylian">Hylian</option>
+        <option value="Goron">Goron</option>
+        <option value="Zora">Zora</option>
+        <option value="Rito">Rito</option>
+        <option value="Gerudo">Gerudo</option>
+        <option value="all">All</option>
+      </select>
+
+      <select id="filter-region" class="filter">
+        <!-- Options for filtering by region -->
+        <option value="">Filter by Region</option>
+        <option value="Hyrule">Hyrule</option>
+        <option value="Goron City">Goron City</option>
+        <option value="Zoras Domain">Zoras Domain</option>
+        <option value="Rito Village">Rito Village</option>
+        <option value="Gerudo Town">Gerudo Town</option>
+        <option value="all">All</option>
+      </select>
+
+      <select id="filter-attribute" class="filter">
+        <!-- Options for filtering by attribute -->
+        <option value="">Filter by Attribute</option>
+        <option value="Courageous">Courageous</option>
+        <option value="Wise">Wise</option>
+        <option value="Strong">Strong</option>
+        <option value="Timid">Timid</option>
+        <option value="Compassionate">Compassionate</option>
+        <option value="Charismatic">Charismatic</option>
+        <option value="Proud">Proud</option>
+        <option value="Musical">Musical</option>
+        <option value="Fierce">Fierce</option>
+        <option value="Determined">Determined</option>
+        <option value="all">All</option>
+      </select>
+    </section>
+
+    <!-- Character catalog section -->
+    <section id="character-catalog">
+      <!-- Container for character cards -->
+    </section>
+
+    <!-- Pagination controls section -->
+    <div id="pagination">
+      <!-- Pagination controls -->
+    </div>
+
+    <!-- Script tag for external JavaScript file -->
+    <script src="main.js"></script>
+  </body>
+</html>
