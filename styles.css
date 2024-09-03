@@ -5,7 +5,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4 url(/assets/img/1_hQ7xC2R9IBTEAt1Ctfh4YA.jpg) no-repeat center/cover;
+  background: #f4f4f4 url(./assets/img/1_hQ7xC2R9IBTEAt1Ctfh4YA.jpg) no-repeat center/cover;
   margin: 0;
   padding: 0;
   height: 100vh; /* Add this line to set the body height to 100vh */
